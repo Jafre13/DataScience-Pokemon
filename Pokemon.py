@@ -15,6 +15,9 @@ class Pokemon:
         self.Generation = Generation
         self.Legendary = Legendary
 
+    def __str__(self):
+        return self.Nr + " " + self.Name
+
     def attack_1( self ):
         return "hmm"
 
