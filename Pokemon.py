@@ -8,4 +8,3 @@ p = Pokemon("Pickachu", 100)
 
 print(p.life)
 print(p.name)
-print(p.life)
