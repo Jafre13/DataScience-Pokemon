@@ -1,1 +1,1 @@
-print("I'm a Pokemon")
+print("")
