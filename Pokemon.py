@@ -1,6 +1,6 @@
 class Pokemon:
 
-    def __init__(self, Nr, Name, Type1, Type2, Total, HP, Attack, Defense, SpAtk, SpDef, Speed, Generation, Legendary):
+    def __init__( self, Nr, Name, Type1, Type2, Total, HP, Attack, Defense, SpAtk, SpDef, Speed, Generation, Legendary ):
         self.Nr = Nr
         self.Name = Name
         self.Type1 = Type1
@@ -15,3 +15,14 @@ class Pokemon:
         self.Generation = Generation
         self.Legendary = Legendary
 
+    def attack_1( self ):
+        return "hmm"
+
+    def attack_2( self ):
+        return "hmm"
+
+    def attack_3 ( self ):
+        return "hmm"
+
+    def attack_4 (sefl ):
+        return "hmm"
